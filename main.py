@@ -142,7 +142,7 @@ def update_mouse():
         number_of_moves += 1
         move_down = False
     if move_left:
-        mouse_rectangle.x -= tiles_width + seperation_line_width
++        mouse_rectangle.x -= tiles_width + seperation_line_width
         number_of_moves += 1
         move_left = False
     if move_right:
